@@ -1,0 +1,60 @@
+:root{
+  --bg: #0b1020;
+  --card: rgba(255,255,255,.04);
+  --text: #e9f3ff;
+  --muted: #b8c9e8;
+  --accent: #2bd07e;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background: #0a0f1f;
+  color: #eaf6ff;
+}
+
+.hero {
+  background: radial-gradient( circle at 40% -10%, rgba(32, 180, 178, 0.15) 0%, rgba(0,0,0,0) 40% ),
+              linear-gradient(135deg, #0a0f1f 0%, #0b1630 60%, #0a1a37 100%);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero-text .tagline {
+  color: #6af09a;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: 1.05rem;
+}
+
+.hero-text h1 {
+  font-family: ui-sans-serif, system-ui, -apple-system;
+  letter-spacing: .2px;
+}
+
+.hero-visual .hero-img {
+  max-width: 100%;
+  height: auto;
+  filter: drop-shadow(0 20px 40px rgba(0,0,0,.5));
+  transform: translateY(0);
+}
+
+.stat-box {
+  border-radius: 12px;
+  background: rgba(255,255,255,.04);
+  border: 1px solid rgba(255,255,255,.08);
+}
+
+@media (max-width: 991.98px){
+  .hero {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .hero-visual {
+    display: none;
+  }
+  .hero-text {
+    text-align: left;
+  }
+}
