@@ -1,7 +1,7 @@
 :root{
   --bg: #0b1020;
   --card: rgba(255,255,255,.04);
-  --text: #e9f3ff;
+  --text: #f6f7f9;
   --muted: #b8c9e8;
   --accent: #2bd07e;
 }
@@ -11,7 +11,13 @@
 html, body {
   height: 100%;
   background: #0a0f1f;
-  color: #eaf6ff;
+  color: white;
+  
+
+}
+
+#navMenu{
+
 }
 
 .hero {
@@ -19,10 +25,11 @@ html, body {
               linear-gradient(135deg, #0a0f1f 0%, #0b1630 60%, #0a1a37 100%);
   padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 10px;
 }
 
 .hero-text .tagline {
-  color: #6af09a;
+  color: #83e9a7;
   font-weight: 700;
   letter-spacing: .5px;
   font-size: 1.05rem;
